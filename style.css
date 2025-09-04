@@ -1,0 +1,43 @@
+/* General page styling */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #0077cc;
+  color: white;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #005fa3;
+}
+
+/* Container for the grid */
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 960px;   /* total space stays the same */
+  height: 960px;  /* makes it a perfect square */
+  border: 2px solid black;
+}
+
+/* Each square */
+.grid-square {
+  border: 1px solid #ddd; /* thin borders */
+  box-sizing: border-box; /* include border in size calculation */
+}
