@@ -1,4 +1,5 @@
 Etch-a-Sketch 🎨
+
 📌 Project Overview
 
 This is a simple Etch-a-Sketch web project built using HTML, CSS, and JavaScript.
